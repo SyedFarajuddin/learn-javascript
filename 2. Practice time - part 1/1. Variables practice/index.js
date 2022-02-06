@@ -1,6 +1,6 @@
 // Create two variables, firstName and lastName
 let firstName = "Syed"
-let lastName = "Farajuddin
+let lastName = "Farajuddin"
 // Concatenate the two variables into a third variable called fullName
 let fullName = firstName + " " + lastName
 // Log fullName to the console
