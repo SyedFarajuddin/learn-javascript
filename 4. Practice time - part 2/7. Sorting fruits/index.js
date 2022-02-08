@@ -9,7 +9,7 @@ function sortFruit() {
   for (i = 0; i < fruit.length; i++) {
     if (fruit[i] === "🍎") {
       appleShelf.textContent += "🍎"
-    } else if (fruit[i] === "🍊" {
+    } else if (fruit[i] === "🍊") {
       orangeShelf.textContent += "🍊"
     }
   }
