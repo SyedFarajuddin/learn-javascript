@@ -9,8 +9,10 @@ const imgs = [
 ]
 
 function renderImages {
+    let imgsDOM = ""
     for (i = 0; i < imgs.length; i++) {
-        container.innerHtml += `<img class="team-img" src=${imgs[i]}>`
+        imgsDOM += `<img alt="Employees in the company" class="team-img" src="${imgs[i]}">`
         }
+    container.innerHTML = imgsDOM
 }
         renderImages()
